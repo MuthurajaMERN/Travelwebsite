@@ -1,36 +1,36 @@
-const Tesimonial = require("../model/testimonial");
+const Testimonial = require("../model/testimonial");
 
-exports.createTesimonial = async (req, res) => {
+exports.createTestimonial = async (req, res) => {
   try {
-    const newTesimonial = await Tesimonial.create(req.body);
-    res.status(201).json(newTesimonial);
+    const newTestimonial = await Testimonial.create(req.body);
+    res.status(201).json(newTestimonial);
   } catch (error) {
     res.status(400).json({ message: error.message });
   }
 };
 
-exports.getTesimonials = async (req, res) => {
+exports.getTestimonials = async (req, res) => {
   try {
-    const Tesimonials = await Tesimonial.find();
-    res.status(200).json(Tesimonials);
+    const Testimonials = await Testimonial.find();
+    res.status(200).json(Testimonials);
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
 };
 
-exports.updateTesimonial = async (req, res) => {
+exports.updateTestimonial = async (req, res) => {
   try {
-    const updatedTesimonial = await Tesimonial.findByIdAndUpdate(req.params.id, req.body, { new: true });
-    res.status(200).json(updatedTesimonial);
+    const updatedTestimonial = await Testimonial.findByIdAndUpdate(req.params.id, req.body, { new: true });
+    res.status(200).json(updatedTestimonial);
   } catch (error) {
     res.status(400).json({ message: error.message });
   }
 };
 
-exports.deleteTesimonial = async (req, res) => {
+exports.deleteTestimonial = async (req, res) => {
   try {
-    await Tesimonial.findByIdAndDelete(req.params.id);
-    res.status(200).json({ message: "Tesimonial deleted" });
+    await Testimonial.findByIdAndDelete(req.params.id);
+    res.status(200).json({ message: "Testimonial deleted" });
   } catch (error) {
     res.status(500).json({ message: error.message });
   }

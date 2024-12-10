@@ -1,5 +1,5 @@
 const express = require("express");
-const { createTestimonial, getTestimonials, updateTestimonial, deleteTestimonial } = require("../controllers/packageController");
+const { createTestimonial, getTestimonials, updateTestimonial, deleteTestimonial } = require("../controllers/testimonialController");
 const router = express.Router();
 
 router.post("/", createTestimonial);
