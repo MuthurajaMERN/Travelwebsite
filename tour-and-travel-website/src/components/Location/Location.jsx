@@ -10,9 +10,11 @@ const Location = () => {
             Location to visit
           </h1>
 
+          
+
           <div className="rounded-xl ">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7116.040113933064!2d83.97168138953894!3d26.90285855661167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39938d631905f7c1%3A0x189dbadf0b42da46!2sNew%20Mobile%20World!5e0!3m2!1sen!2sin!4v1700902186385!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15665.750502953631!2d76.98317534853709!3d11.005755576514902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859c81fefae99%3A0x271207bc26475477!2sPuliakulam%2C%20Coimbatore%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1733813430896!5m2!1sen!2sin"
               width="100%"
               height="360"
               allowfullscreen=""

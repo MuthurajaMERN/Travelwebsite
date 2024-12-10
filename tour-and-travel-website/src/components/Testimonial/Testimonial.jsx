@@ -80,15 +80,13 @@ const Testimonial = () => {
         <div className="container">
           {/* Header section */}
           <div className="text-justify mb-20 max-w-[700px] mx-auto">
-            <p className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
-              Testimonial
-            </p>
-            <h1 className="text-4xl font-bold">Testimonial</h1>
+           
+            <h1 className="text-4xl font-bold aligncenter ">Testimonial</h1>
             <p className="text-3xl text-gray-400">
               {" "}
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero
-              nesciunt explicabo a! Laborum delectus aliquam labore, earum rerum
-              quam! Nulla?
+              "We strive to create unforgettable travel experiences for our clients. Whether you're seeking adventure, relaxation, or cultural exploration, our curated tours and exceptional service ensure every moment is extraordinary. Here’s what some of our travelers had to say about their journeys."
+
+
             </p>
           </div>
           {/* testimonial section */}
